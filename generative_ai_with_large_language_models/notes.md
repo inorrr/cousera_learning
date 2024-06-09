@@ -28,4 +28,6 @@
 
 ## Module 3: Reinforcement learning and LLM-powered applications
 
-### 
+### Reinformcement Learning from human feedback
+
+### LLM-powered applications
