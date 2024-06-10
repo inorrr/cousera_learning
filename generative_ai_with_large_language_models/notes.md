@@ -96,6 +96,13 @@ Inference Parameters:
 Greedy and Ramdom decoding:
 - Greedy: the word/token with the highest probability is selected. Work very well for short generation but is susceptible to repeated words or repeated sequences of words.
 - Random(weighted): the model chooses an output word at random using the probability distribution to weight the selection. There is a possibility that the output may be too creative, producing words that cause the generation to wander off into topics or words that just don't make sense.
+  - top_k: select an output from the top-k results after applying random-weighted strategy using the probabilities.
+  - top_p: select an output using the random-weighted strategy with the top-ranked consecutive results by probability and with a cumulative probability <= p.
+  - temperature: influences the shape of the probability distribution that the model calculates for the next token. The higher the temperature, the higher the randomness, and the lower the temperature, the lower the randomness. Applied in the final softmax layer, changing the temperature actually alters the predictions that the model will make.
+
+![Screenshot 2024-06-10 at 4 12 03 PM](https://github.com/inorrr/cousera_learning/assets/94703030/25a3afe9-9981-4a27-8826-e3d38e38fcb5)
+
+
 
 #### Generative AI project lifecycle
 
