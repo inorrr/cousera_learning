@@ -45,6 +45,16 @@ Simplified diagram of the transformer: two distinct parts: encoder and decoder.
 - Each token ID in the vocabulary is matched to a multi-dimensional vector, and the intuition is that these vectors learn to encode the meaning and context of individual tokens in the input sequence
 - there are many set of heads(self attention), each self-attention head will learn a different aspect of language.
 
+#### Generating text with transformers
+Example: translation (sequence to sequence task) from French to English
+1. First, you'll tokenize the input words using this same tokenizer that was used to train the network.
+2. These tokens are then added into the input on the encoder side of the network, passed through the embedding layer, and then fed into the multi-headed attention layers.
+3. The outputs of the multi-headed attention layers are fed through a feed-forward network to the output of the encoder.
+4. At this point, the data that leaves the encoder is a deep representation of the structure and meaning of the input sequence.
+5. This representation is inserted into the middle of the decoder to influence the decoder's self-attention mechanisms.
+6. Next, a start of sequence token is added to the input of the decoder. This triggers the decoder to predict the next token, which it does based on the contextual understanding that it's being provided from the encoder.
+7. The output of the decoder's self-attention layers gets passed through the decoder feed-forward network and through a final softmax output layer. At this point, we have our first token
+
 ### LLM pre-training and scaling laws
 
 ## Module 2: Fine-tuning and evaluating large language models
