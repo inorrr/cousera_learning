@@ -40,6 +40,7 @@ Transformers can be:
 Simplified diagram of the transformer: two distinct parts: encoder and decoder.
 
 ![Screenshot 2024-06-10 at 3 05 08 PM](https://github.com/inorrr/cousera_learning/assets/94703030/8d4c0a08-692b-45ca-ac62-4be4d7464d5f)
+![idP8oaT2QPK8TAdEt6WYEg_41e77abe4ea6457e9706e0c4fa379ff1_image](https://github.com/inorrr/cousera_learning/assets/94703030/3d64f783-ab1e-4da6-9718-7e54d4bb83a9)
 
 - Tokenize: convert words to numbers, with each number representing a position in a dictionary of all the possible words that the model can work with.
 - Each token ID in the vocabulary is matched to a multi-dimensional vector, and the intuition is that these vectors learn to encode the meaning and context of individual tokens in the input sequence
