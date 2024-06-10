@@ -89,6 +89,12 @@ Models with more parameters are able to capture more understanding of language.
 
 #### Generative Configuration
 
+Inference Parameters: invoked at inference time, controls the maximum number of tokens in the completion, and how creative the output is. 
+- Max new tokens: max number of tokens that the model will generate.
+
+Greedy and Ramdom decoding:
+- Greedy: the word/token with the highest probability is selected. Work very well for short generation but is susceptible to repeated words or repeated sequences of words.
+
 #### Generative AI project lifecycle
 
 
