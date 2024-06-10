@@ -38,8 +38,10 @@ Transformers can be:
 - self attention.
 
 Simplified diagram of the transformer: two distinct parts: encoder and decoder.
+
 ![Screenshot 2024-06-10 at 3 05 08 PM](https://github.com/inorrr/cousera_learning/assets/94703030/8d4c0a08-692b-45ca-ac62-4be4d7464d5f)
 
+Tokenice: convert words to numbers, with each number representing a position in a dictionary of all the possible words that the model can work with.
 
 ### LLM pre-training and scaling laws
 
