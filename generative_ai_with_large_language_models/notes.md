@@ -11,9 +11,13 @@
 
 ### Introduction to LLMs and the generative AI project lifecycle
 
+#### Generative AI & LLMs
+
 - Gen AI is a subset of traditional ML.
 - Base models: GPT = BLOOM > FLAN-T5 > LLaMa > PaLM > BERT, in terms of parameter size.
 - prompt -> model -> completion(output)
+
+#### LLM use cases and tasks
 - next word perdiction is the base logic behind many tasks in text generation. For example, write essay with given prompt, summarization, translation, natural languate to machine code, entity extraction,
 - Connect LLM to external source so that it can perform tasks that it has not be pre-trained on is an ongoing research area.
 
@@ -26,6 +30,7 @@ Transformers can be:
 - parallel process to use larger tranining datasets.
 - able to make attention to input meaning - crutoial
 
+#### Transformers Architecture
 
 ### LLM pre-training and scaling laws
 
