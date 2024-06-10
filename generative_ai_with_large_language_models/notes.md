@@ -83,6 +83,9 @@ Prompt Engineering: develop and improve the prompt so that the model gives desir
 - one shot inference: one example
 - few shot inference: multiple examples, a mix of examples with different output classes can help the model to understand what it needs to do.
 
+Models with more parameters are able to capture more understanding of language.
+1. The largest models are surprisingly good at zero-shot inference and are able to infer and successfully complete many tasks that they were not specifically trained to perform. In contrast,
+2. smaller models are generally only good at a small number of tasks. Typically, those that are similar to the task that they were trained on. 
 
 #### Generative Configuration
 
