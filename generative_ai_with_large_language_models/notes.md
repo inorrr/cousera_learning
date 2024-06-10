@@ -54,6 +54,12 @@ Example: translation (sequence to sequence task) from French to English
 5. This representation is inserted into the middle of the decoder to influence the decoder's self-attention mechanisms.
 6. Next, a start of sequence token is added to the input of the decoder. This triggers the decoder to predict the next token, which it does based on the contextual understanding that it's being provided from the encoder.
 7. The output of the decoder's self-attention layers gets passed through the decoder feed-forward network and through a final softmax output layer. At this point, we have our first token
+8. You'll continue this loop, passing the output token back to the input to trigger the generation of the next token, until the model predicts an end-of-sequence token. At this point, the final sequence of tokens can be detokenized into words, and you have your output. 
+
+Encoder: encodes inputs(prompts) with contextual understanding and producesone vector per input token.
+
+Decoder: accepts input tokens and generates new tokens.
+
 
 ### LLM pre-training and scaling laws
 
