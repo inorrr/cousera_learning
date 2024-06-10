@@ -102,12 +102,9 @@ Greedy and Ramdom decoding:
 
 ![Screenshot 2024-06-10 at 4 12 03 PM](https://github.com/inorrr/cousera_learning/assets/94703030/25a3afe9-9981-4a27-8826-e3d38e38fcb5)
 
-
-
 #### Generative AI project lifecycle
 
 ![Screenshot 2024-06-10 at 4 19 32 PM](https://github.com/inorrr/cousera_learning/assets/94703030/ec997b59-960f-49c5-9bab-c2e75a958a7f)
-Define the use case, the specific tasks to complete.
 
 ### LLM pre-training and scaling laws
 
