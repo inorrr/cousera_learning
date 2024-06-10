@@ -60,6 +60,11 @@ Encoder: encodes inputs(prompts) with contextual understanding and producesone v
 
 Decoder: accepts input tokens and generates new tokens.
 
+Transformer Models:
+1. Encoder only models: also work as sequence to sequence models, but without further modification, the input seuqence and the output sequence are the same length. Example: BERT
+2. Encoder decoder models: perform welkl on sequence to sequence tasks such as traslation, where the input sequence and the output sequence can be different length. Can also scale and train this type of model to perform general text generation tasks. Example: BART, T5
+3. Decoder only models: most commonly used today. Example: GPT family, BLOOM, Jurassic, LLaMA
+
 
 ### LLM pre-training and scaling laws
 
