@@ -32,6 +32,14 @@ Transformers can be:
 
 #### Transformers Architecture
 
+- Ability to learn the relevlence between words in a sentence. 
+- To apply *attention weights* to those relationships so that the model learns the relevance of each word to each other words no matter where they are in the input.
+- Attention map: used to illustrate the attention weights between each word and every other word.
+- self attention.
+-
+![Screenshot 2024-06-10 at 3 05 08 PM](https://github.com/inorrr/cousera_learning/assets/94703030/8d4c0a08-692b-45ca-ac62-4be4d7464d5f)
+
+
 ### LLM pre-training and scaling laws
 
 ## Module 2: Fine-tuning and evaluating large language models
