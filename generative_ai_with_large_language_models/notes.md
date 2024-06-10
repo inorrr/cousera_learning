@@ -17,6 +17,16 @@
 - next word perdiction is the base logic behind many tasks in text generation. For example, write essay with given prompt, summarization, translation, natural languate to machine code, entity extraction,
 - Connect LLM to external source so that it can perform tasks that it has not be pre-trained on is an ongoing research area.
 
+#### Text generation before transformer
+- RNN: recurent neural networks. Look at the previous couple of words to predict the next word. Performance improves as model get larger, but still not good enough as human language is complex and sometimes contains ambiguity.
+
+"Attentional is All You Need": the transformer paper published by Google and the University of Toronto.
+Transformers can be:
+- scaled efficiently to use multicore GPU
+- parallel process to use larger tranining datasets.
+- able to make attention to input meaning - crutoial
+
+
 ### LLM pre-training and scaling laws
 
 ## Module 2: Fine-tuning and evaluating large language models
